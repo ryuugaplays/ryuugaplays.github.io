@@ -2,7 +2,7 @@
 title: RyuugaPlays
 description: A blog about learning Japanese
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+url: "https://ryuugaplays.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: RyuugaPlays
