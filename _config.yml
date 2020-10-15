@@ -1,0 +1,43 @@
+# Site settings
+title: RyuugaPlays
+description: A blog about learning Japanese
+baseurl: "ryuugaplays.github.io" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: RyuugaPlays
+user_description: Watch me live on Twitch
+user_title: Learns Japanese
+email: ryuugaplays@gmail.com
+twitter_username: ryuugaplays
+twitch_username:  ryuugaplays
+paypal_tip: https://streamlabs.com/ryuugaplays/tip
+bitcoin: 39PReJk9q3WZk5GEMSg77fjoSw8XWozVCm
+disqus_username: lorem_ipsum
+profile_picture: https://raw.githubusercontent.com/ryuugaplays/will-jekyll-template/gh-pages/Site-Logo.png
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
